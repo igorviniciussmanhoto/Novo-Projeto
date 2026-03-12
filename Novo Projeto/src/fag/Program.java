@@ -1,10 +1,16 @@
 package fag;
 
+import fag.objects.HelloWorld;
+
 public class Program {
+
 	public static void main(String[] args) {
+
 		
-		System.out.println("Hello, World!");
+		HelloWorld helloWorld = new HelloWorld();
 		
+		helloWorld.mostrarHello();
 		
 	}
+
 }
